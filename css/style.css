@@ -13,6 +13,14 @@ body {
   font-size: 10px;
   padding: 10px 10px 20px 20px;
 }
+h1 {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+h2 {
+  font-weight: thin;
+}
 
 .container {
   display: flex;
@@ -44,8 +52,8 @@ margin: 1%;
 }
 
 .location {
-  font-weight: bold;
   border-bottom: 1px solid black;
+  overflow: hidden;
 }
 
 .location:hover {
@@ -53,6 +61,7 @@ margin: 1%;
 }
 
 .content {
+  float: left;
   font-size: 12px;
   padding: 3%;
 }
